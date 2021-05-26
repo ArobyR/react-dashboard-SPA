@@ -34,19 +34,29 @@ ul li {
     margin: 10px 0;
 }
   
-ul li .link {
+ul li .link, .btn-link {
     color: #fff;
     text-decoration: none;
     font-size: 16px;
     display: block;
     padding: 10px 15px;
     border-radius: 6px;
+    border: none;
+}
+
+.btn-link, .btn-link {
+    background-color: #0B1F38;
+    color: #fff;
+}
+
+svg {
+    margin: 0px 10px;    
+}
+
+button svg {
+    color: #fff;
 }
   
-ul li svg {
-    margin: 0px 10px;
-}
-  
-ul li .link:hover, ul li .link.ctive {
+ul li .link:hover, ul li .link.active, .btn-link:hover {
     background: #172b4d;
 }

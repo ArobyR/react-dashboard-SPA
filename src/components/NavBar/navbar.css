@@ -1,4 +1,5 @@
 .header {
+    display: flex;
     padding: 15px 20px;
     height: 70px;
     color: #0A376E;
@@ -8,4 +9,13 @@
   
 .header svg {
     font-size: 35px;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+}
+
+p {
+    padding: 2px 13px;
 }

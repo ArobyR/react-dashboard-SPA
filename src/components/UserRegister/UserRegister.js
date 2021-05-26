@@ -57,8 +57,7 @@ const UserRegister = () => {
             setDatos({...datos, rol: (value === 'usuario' ? '1' :  
             (value === 'agente' ? '2' : 
             (value === 'encargado' ? '3': '4')))})
-        }  
-            
+        }   
     }
 
     return (

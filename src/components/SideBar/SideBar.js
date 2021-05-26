@@ -3,7 +3,8 @@ import './sidebar.css'
 import { BiSpreadsheet } from 'react-icons/bi';
 import { RiHomeSmileFill, RiAdminFill } from 'react-icons/ri';
 import { ImTicket } from 'react-icons/im';
-import { FiUsers, FiLogOut } from 'react-icons/fi';
+import { FiUsers } from 'react-icons/fi';
+import Logout from '../Logout/Logout';
 
 const SideBar = ({ show }) => {
     return (
@@ -41,10 +42,7 @@ const SideBar = ({ show }) => {
                     </Link>
                 </li>
                 <li>
-                    <Link className='link' to='/logout'>
-                        <FiLogOut />
-                        Log Out
-                    </Link>
+                    <Logout/>
                 </li>
             </ul>    
         </div>

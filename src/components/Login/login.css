@@ -1,0 +1,16 @@
+.contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login {
+    margin: auto;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    padding: 22px;  
+    background: #f3f1f1;
+    border-radius: 22px;
+}
